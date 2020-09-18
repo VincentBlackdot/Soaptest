@@ -10,6 +10,10 @@ use Mix.Config
 config :soaptest,
   ecto_repos: [Soaptest.Repo]
 
+#Endon configurations
+config :endon,
+       repo: Otc.Repo
+
 # Configures the endpoint
 config :soaptest, SoaptestWeb.Endpoint,
   url: [host: "localhost"],
