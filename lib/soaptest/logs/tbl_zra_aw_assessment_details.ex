@@ -1,4 +1,4 @@
-defmodule Otc.Database.Tables.Zra_aw_assessment_details do
+defmodule Soaptest.Database.Tables.Zra_aw_assessment_details do
 
   use Endon
   use Ecto.Schema
@@ -14,5 +14,3 @@ defmodule Otc.Database.Tables.Zra_aw_assessment_details do
     timestamps(inserted_at: :created_at, type: :utc_datetime)
   end
 end
-
-

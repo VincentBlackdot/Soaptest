@@ -1,4 +1,4 @@
-defmodule Otc.Database.Tables.Zra_aw_assessment do
+defmodule Soaptest.Database.Tables.Zra_aw_assessment do
 
   use Endon
   use Ecto.Schema

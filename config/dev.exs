@@ -3,9 +3,9 @@ use Mix.Config
 # Configure your database
 config :soaptest, Soaptest.Repo,
   username: "sa",
-  password: "Qwerty12",
+  password: "1234",
   database: "soaptest_dev",
-  hostname: "localhost",
+  hostname: "DESKTOP-6S9LROD",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 

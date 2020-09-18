@@ -1,16 +1,14 @@
-defmodule Otc.Repo.Migrations.OtcMigrationTables do
+defmodule Soaptest.Repo.Migrations.SoaptestMigrationTables do
   use Ecto.Migration
 
   def up do
     create_tables()
   end
 
-  def down do
-    drop_tables()
-  end
+  # def down do
+  #   drop_tables()
+  # end
   def create_tables() do
-
-    end
 
     create_if_not_exists table(:zra_aw_assessment_detail) do
       add :zra_aw_assessment_id, :integer
@@ -48,11 +46,10 @@ defmodule Otc.Repo.Migrations.OtcMigrationTables do
       timestamps(inserted_at: :created_at, type: :utc_datetime)
     end
 
-  end
-
-  def drop_tables() do
-    drop_if_exists table(:zra_aw_assessment_detail)
-    drop_if_exists table(:zra_aw_assessment)
+    # def drop_tables() do
+    #   drop_if_exists table(:zra_aw_assessment_detail)
+    #   drop_if_exists table(:zra_aw_assessment)
+    # end
   end
 
 end
